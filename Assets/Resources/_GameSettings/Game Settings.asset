@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c673c526aeb3e643a66e263073638d4, type: 3}
+  m_Name: Game Settings
+  m_EditorClassIdentifier: 
+  countSegments: 16
+  DebugMode: 0
+  wheelSpinSetting:
+    minPrice: 1000
+    maxPrice: 100000
+    minIntervalPrice: 1000
+    multiplicityPrice: 100
+    countRotation: 10
+    speedRotation: 20
+    rotationTime: 10
+    spin:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.101377115
+        value: -0.0117760375
+        inSlope: 0.35736227
+        outSlope: 0.35736227
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.0688889
+      - serializedVersion: 3
+        time: 1.1860929
+        value: 0.940146
+        inSlope: 0.188895
+        outSlope: 0.188895
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.046692066
+        outWeight: 0.058284525
+      - serializedVersion: 3
+        time: 2
+        value: 1
+        inSlope: 0.023433642
+        outSlope: 0.023433642
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.0121791065
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    prefabPartCircle: {fileID: 4593972982689889443, guid: 6667c0725159d8d4f8e67552474d8a99, type: 3}
+    colorsPart:
+    - {r: 0.9433962, g: 0.81956357, b: 0.19134924, a: 1}
+    - {r: 0.9245283, g: 0.23985407, b: 0.23985407, a: 1}
+    - {r: 0.5626073, g: 0, b: 1, a: 1}
+    colorsMoney:
+    - {r: 0.0107040405, g: 0, b: 1, a: 1}
+    - {r: 0, g: 1, b: 0.10944128, a: 1}
+  uiSpinnerSettings:
+    prefabPartCircle: {fileID: 6729326611816436513, guid: 46fc30e5fb89a70409390d553a2df95a, type: 3}
+    colorsPart:
+    - {r: 0.9433962, g: 0.81956357, b: 0.19134924, a: 1}
+    - {r: 0.9245283, g: 0.23985407, b: 0.23985407, a: 1}
+    - {r: 0.5626073, g: 0, b: 1, a: 1}
+    colorsQuestions:
+    - {r: 0.0107040405, g: 0, b: 1, a: 1}
+    - {r: 0, g: 1, b: 0.10944128, a: 1}
